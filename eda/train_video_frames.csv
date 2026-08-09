@@ -1,0 +1,24 @@
+rel_path,cls,ratio,frames,fps
+pure/IMG (73).MOV,0,100_0,959,30.0
+pure/IMG (74).MOV,0,100_0,1281,30.0
+adulterated/ratio_95_5/IMG (79).MOV,1,95_5,1257,30.0
+adulterated/ratio_85_15/IMG (83).MOV,1,85_15,910,30.0
+adulterated/ratio_75_25/IMG (87).MOV,1,75_25,1143,30.0
+adulterated/ratio_60_40/IMG (91).MOV,1,60_40,1376,30.0
+pure/IMG (3).MOV,0,100_0,597,30.0
+pure/IMG (5).MOV,0,100_0,288,29.5
+pure/IMG (6).MOV,0,100_0,69,27.6
+adulterated/ratio_97.5_2.5/IMG (7).MOV,1,97.5_2.5,334,30.0
+adulterated/ratio_97.5_2.5/IMG (10).MOV,1,97.5_2.5,111,27.8
+adulterated/ratio_97.5_2.5/IMG (9).MOV,1,97.5_2.5,469,29.6
+adulterated/ratio_90_10/IMG (15).MOV,1,90_10,867,30.0
+adulterated/ratio_90_10/IMG (17).MOV,1,90_10,560,30.0
+adulterated/ratio_90_10/IMG (18).MOV,1,90_10,136,30.0
+adulterated/ratio_80_20/IMG (21).MOV,1,80_20,204,30.0
+adulterated/ratio_80_20/IMG (23).MOV,1,80_20,349,30.0
+adulterated/ratio_80_20/IMG (24).MOV,1,80_20,228,28.5
+adulterated/ratio_70_30/IMG (30).MOV,1,70_30,167,28.1
+adulterated/ratio_70_30/IMG (32).MOV,1,70_30,235,28.4
+adulterated/ratio_50_50/IMG (37).MOV,1,50_50,352,30.0
+adulterated/ratio_50_50/IMG (39).MOV,1,50_50,106,30.0
+adulterated/ratio_50_50/IMG (40).MOV,1,50_50,68,30.4

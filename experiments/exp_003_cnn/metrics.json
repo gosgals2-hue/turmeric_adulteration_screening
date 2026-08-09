@@ -1,0 +1,113 @@
+{
+  "model": "MobileNetV2 transfer (fine_tune=False) on 224x224 ROI crops [PyTorch]",
+  "seed": 42,
+  "used_frames": true,
+  "test_class_counts": {
+    "pure": 710,
+    "adulterated": 721
+  },
+  "results": {
+    "unweighted": {
+      "test_default_0.5": {
+        "threshold": 0.5,
+        "accuracy": 0.8861,
+        "balanced_accuracy": 0.8859,
+        "pr_auc_adulterated": 0.9439,
+        "roc_auc": 0.9517,
+        "pure_precision": 0.9004,
+        "pure_recall": 0.8662,
+        "pure_f1": 0.883,
+        "adul_precision": 0.873,
+        "adul_recall": 0.9057,
+        "adul_f1": 0.889,
+        "macro_f1": 0.886,
+        "confusion": [
+          [
+            615,
+            95
+          ],
+          [
+            68,
+            653
+          ]
+        ]
+      },
+      "test_val_threshold": {
+        "threshold": 0.558,
+        "accuracy": 0.8889,
+        "balanced_accuracy": 0.8889,
+        "pr_auc_adulterated": 0.9439,
+        "roc_auc": 0.9517,
+        "pure_precision": 0.8832,
+        "pure_recall": 0.8944,
+        "pure_f1": 0.8887,
+        "adul_precision": 0.8947,
+        "adul_recall": 0.8835,
+        "adul_f1": 0.889,
+        "macro_f1": 0.8889,
+        "confusion": [
+          [
+            635,
+            75
+          ],
+          [
+            84,
+            637
+          ]
+        ]
+      },
+      "val_selected_threshold": 0.5584620237350464
+    },
+    "balanced": {
+      "test_default_0.5": {
+        "threshold": 0.5,
+        "accuracy": 0.8861,
+        "balanced_accuracy": 0.8859,
+        "pr_auc_adulterated": 0.9439,
+        "roc_auc": 0.9517,
+        "pure_precision": 0.9004,
+        "pure_recall": 0.8662,
+        "pure_f1": 0.883,
+        "adul_precision": 0.873,
+        "adul_recall": 0.9057,
+        "adul_f1": 0.889,
+        "macro_f1": 0.886,
+        "confusion": [
+          [
+            615,
+            95
+          ],
+          [
+            68,
+            653
+          ]
+        ]
+      },
+      "test_val_threshold": {
+        "threshold": 0.558,
+        "accuracy": 0.8889,
+        "balanced_accuracy": 0.8889,
+        "pr_auc_adulterated": 0.9439,
+        "roc_auc": 0.9517,
+        "pure_precision": 0.8832,
+        "pure_recall": 0.8944,
+        "pure_f1": 0.8887,
+        "adul_precision": 0.8947,
+        "adul_recall": 0.8835,
+        "adul_f1": 0.889,
+        "macro_f1": 0.8889,
+        "confusion": [
+          [
+            635,
+            75
+          ],
+          [
+            84,
+            637
+          ]
+        ]
+      },
+      "val_selected_threshold": 0.5584620237350464
+    }
+  }
+}

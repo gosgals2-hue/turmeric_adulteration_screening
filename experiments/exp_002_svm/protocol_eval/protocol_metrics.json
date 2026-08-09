@@ -1,0 +1,164 @@
+{
+  "model": "tier2",
+  "class_weight": "balanced",
+  "roc_auc": 0.8554,
+  "pr_auc": 0.8743,
+  "primary_threshold": 0.394,
+  "se_overall": 0.731,
+  "se_overall_pile_ci": [
+    0.542,
+    0.932
+  ],
+  "specificity": {
+    "specificity": 0.81,
+    "n": 710,
+    "ci_lo": 0.779,
+    "ci_hi": 0.837,
+    "n_pure_test_piles": 5,
+    "caveat": "specificity now rests on 5 physical pure pile(s) - including different-source probe piles"
+  },
+  "operating_points": [
+    {
+      "target_sp": 0.9,
+      "threshold": 0.184,
+      "test_specificity": 0.686,
+      "test_sensitivity_overall": 0.84
+    },
+    {
+      "target_sp": 0.95,
+      "threshold": 0.394,
+      "test_specificity": 0.81,
+      "test_sensitivity_overall": 0.731
+    },
+    {
+      "target_sp": 0.98,
+      "threshold": 0.747,
+      "test_specificity": 0.949,
+      "test_sensitivity_overall": 0.566
+    }
+  ],
+  "prevalence_sweep": [
+    {
+      "pi_pure": 0.99,
+      "PPV": 0.037408525663988584,
+      "NPV": 0.9966566822853876,
+      "alert_rate": 0.19540999999999994,
+      "weighted_acc": 0.8092100000000001,
+      "per1000": {
+        "true_detections": 7,
+        "missed": 3,
+        "false_alarms": 188,
+        "true_negatives": 802
+      }
+    },
+    {
+      "pi_pure": 0.95,
+      "PPV": 0.16839437917530542,
+      "NPV": 0.9828213806756498,
+      "alert_rate": 0.21704999999999997,
+      "weighted_acc": 0.80605,
+      "per1000": {
+        "true_detections": 37,
+        "missed": 13,
+        "false_alarms": 180,
+        "true_negatives": 770
+      }
+    },
+    {
+      "pi_pure": 0.9,
+      "PPV": 0.29946743138058174,
+      "NPV": 0.9644132821801825,
+      "alert_rate": 0.24409999999999993,
+      "weighted_acc": 0.8021,
+      "per1000": {
+        "true_detections": 73,
+        "missed": 27,
+        "false_alarms": 171,
+        "true_negatives": 729
+      }
+    }
+  ],
+  "sensitivity_by_ratio": [
+    {
+      "ratio": "97.5/2.5",
+      "n": 146,
+      "detected": 43,
+      "sensitivity": 0.295,
+      "ci_lo": 0.227,
+      "ci_hi": 0.373,
+      "n_test_piles": 1
+    },
+    {
+      "ratio": "95/5",
+      "n": 51,
+      "detected": 46,
+      "sensitivity": 0.902,
+      "ci_lo": 0.79,
+      "ci_hi": 0.957,
+      "n_test_piles": 1
+    },
+    {
+      "ratio": "90/10",
+      "n": 94,
+      "detected": 46,
+      "sensitivity": 0.489,
+      "ci_lo": 0.391,
+      "ci_hi": 0.589,
+      "n_test_piles": 1
+    },
+    {
+      "ratio": "85/15",
+      "n": 29,
+      "detected": 28,
+      "sensitivity": 0.966,
+      "ci_lo": 0.828,
+      "ci_hi": 0.994,
+      "n_test_piles": 1
+    },
+    {
+      "ratio": "80/20",
+      "n": 96,
+      "detected": 95,
+      "sensitivity": 0.99,
+      "ci_lo": 0.943,
+      "ci_hi": 0.998,
+      "n_test_piles": 1
+    },
+    {
+      "ratio": "75/25",
+      "n": 50,
+      "detected": 46,
+      "sensitivity": 0.92,
+      "ci_lo": 0.812,
+      "ci_hi": 0.968,
+      "n_test_piles": 1
+    },
+    {
+      "ratio": "70/30",
+      "n": 111,
+      "detected": 92,
+      "sensitivity": 0.829,
+      "ci_lo": 0.748,
+      "ci_hi": 0.888,
+      "n_test_piles": 1
+    },
+    {
+      "ratio": "60/40",
+      "n": 38,
+      "detected": 38,
+      "sensitivity": 1.0,
+      "ci_lo": 0.908,
+      "ci_hi": 1.0,
+      "n_test_piles": 1
+    },
+    {
+      "ratio": "50/50",
+      "n": 106,
+      "detected": 93,
+      "sensitivity": 0.877,
+      "ci_lo": 0.801,
+      "ci_hi": 0.927,
+      "n_test_piles": 1
+    }
+  ]
+}

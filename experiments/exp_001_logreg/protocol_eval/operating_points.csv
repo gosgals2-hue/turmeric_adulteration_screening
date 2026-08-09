@@ -1,0 +1,4 @@
+target_sp,threshold,test_specificity,test_sensitivity_overall
+0.9,0.403,0.651,0.689
+0.95,0.525,0.825,0.491
+0.98,0.652,0.897,0.277

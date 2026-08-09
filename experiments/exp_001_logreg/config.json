@@ -1,0 +1,32 @@
+{
+  "experiment": "exp_001_logreg",
+  "tier": 1,
+  "model": "LogisticRegression (max_iter=2000, standardized features)",
+  "features": [
+    "mean_R",
+    "mean_G",
+    "mean_B",
+    "mean_H",
+    "mean_S",
+    "mean_V",
+    "hue_std",
+    "sat_std",
+    "val_std",
+    "bright",
+    "contrast"
+  ],
+  "data": "masked colour/texture features, IMAGE-ONLY (no video frames yet)",
+  "split": "pile-aware (test pile-clean); val = file-level carve from train piles",
+  "protocol": "train on TRAIN, select threshold on VAL (balanced-accuracy), report on sealed TEST",
+  "positive_class": "adulterated (1)",
+  "variants": [
+    "unweighted",
+    "class_weight=balanced"
+  ],
+  "seed": 42,
+  "known_limitations": [
+    "VAL has only 12 samples, so the val-selected threshold is noisy.",
+    "TEST is imbalanced (12 pure : 103 adulterated); PR-AUC no-skill baseline = 0.90.",
+    "Image-only; dense pure video frames (planned) not yet added \u2014 pure still only 5 piles."
+  ]
+}
