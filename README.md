@@ -3,9 +3,9 @@ Tiered ML pipeline (logistic regression, SVM, MobileNetV2) with leakage-free eva
 Approach
 
 A tiered pipeline of increasing capacity, each testing what kind of colour signal separates pure from adulterated turmeric:
-Tier 1 — logistic regression on 11 colour/texture statistics (average colour)
-Tier 2 — RBF support vector machine on a 96-bin colour histogram (colour distribution)
-Tier 3 — MobileNetV2 CNN via transfer learning (learned deep features)
+Tier 1: logistic regression on 11 colour/texture statistics (average colour)
+Tier 2: RBF support vector machine on a 96-bin colour histogram (colour distribution)
+Tier 3: MobileNetV2 CNN via transfer learning (learned deep features)
 
 Repo structure:
 
